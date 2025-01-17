@@ -227,6 +227,16 @@ func (hyper *Hyper) ResetEmailVerification() error {
 	return nil
 }
 
+// 111
+// a4df0-fcd39
+// ae55c-7ce93
+// dd21c-5764d
+// 23146-f8fb8
+// 6cb76-3f5bf
+// 75c0b-2684a
+// a73ab-91365
+// eae97-e3fe7
+
 // Edit is a function used to satisfy the gocui.Editor interface
 func (view *EmailVerificationView) Edit(v *gocui.View, key gocui.Key, ch rune, mod gocui.Modifier) {
 	cx, cy := v.Cursor()
@@ -412,6 +422,16 @@ func (hyper *Hyper) EmailVerificationTaskInputNext() error {
 	view.CreateEmailVerificationTask()
 	return nil
 }
+
+// 222
+// bfabb-3e7a3
+// c4182-fc097
+// 8b231-bba51
+// 3f39c-88c4c
+// dfaf7-a1254
+// 10075-963e9
+// dafa5-85d86
+// fefb4-0a251
 
 func (hyper *Hyper) RunEmailVerificationTasks() error {
 	hyper.DeleteKeyBinding(hyper.Views.EmailVerification, gocui.KeyEnter, gocui.ModNone)
