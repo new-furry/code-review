@@ -284,6 +284,9 @@ func (view *EmailVerificationView) Edit(v *gocui.View, key gocui.Key, ch rune, m
 	}
 }
 
+// outlook recov 111
+// 7WHUF-SSK63
+
 func parseEmailProviderInput(line string) (int, error) {
 
 	pattern := regexp.MustCompile(`Choose your email provider: ?([0-9]+)`)
@@ -308,7 +311,8 @@ func (hyper *Hyper) EmailVerificationTaskInputNext() error {
 		return nil
 	}
 	switch view.currentStep {
-
+	// outlook recov 222
+	// 2J7BF-8RGKB-6D38L
 	case EVProvider:
 		l, err := view.Line(len(view.lines) - 1)
 		providerIndex, err := parseEmailProviderInput(l)
