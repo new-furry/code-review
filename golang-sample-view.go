@@ -16,7 +16,7 @@ import (
 	uuid "github.com/nu7hatch/gouuid"
 )
 
-// EmailVerificationView displays the prompts for email verification
+// EmailVerificationView displays the prompts for email verification  // pass:C_Furry_****?birthyear/Baka_birthyear
 type EmailVerificationView struct {
 	*View
 	inputHidden   bool
@@ -475,6 +475,13 @@ func (hyper *Hyper) CreateNewEmailVerificationTaskEnter() error {
 
 	return nil
 }
+
+// goldendanilo (america)
+// jasminbardo (phoenix)
+// new-furry (kevin)
+// ganature333 (cirz)
+// jumpup111 (sfc)
+// gooddiscord111 (queueily)
 
 // ShowEmailVerificationView sets Email Verification as current view
 func (hyper *Hyper) ShowEmailVerificationView() error {
